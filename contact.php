@@ -7,7 +7,7 @@
 
 // Define page-specific SEO variables
 $page_title = "Contact Us | Yash Computers | Best Refurbished Laptops Hyderabad";
-$page_description = "Get in touch with Yash Computers. Call or WhatsApp +91 98855 54431, visit our stores in Hyderabad, or fill out our contact form for an instant quote.";
+$page_description = "Get in touch with Yash Computers. Call or WhatsApp +91 81828 30905, visit our stores in Hyderabad, or fill out our contact form for an instant quote.";
 $active_page = "contact";
 
 // Include Header
@@ -37,7 +37,7 @@ include 'includes/header.php';
                     <div class="contact-card-details">
                         <h4>Call Us Directly</h4>
                         <p>Speak with our sales executive instantly:</p>
-                        <p><a href="tel:+919885554431" style="font-weight: 700; color: var(--primary-color);">+91 98855 54431</a></p>
+                        <p><a href="tel:+918182830905" style="font-weight: 700; color: var(--primary-color);">+91 81828 30905</a></p>
                     </div>
                 </div>
                 
@@ -49,10 +49,10 @@ include 'includes/header.php';
                     <div class="contact-card-details">
                         <h4>WhatsApp Chat</h4>
                         <p>Chat with us for catalog & pictures:</p>
-                        <p><a href="https://wa.me/919885554431?text=Hi%20Yash%20Computers%2C%20I%20want%20to%20see%20the%20latest%20laptop%20catalog." 
+                        <p><a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20want%20to%20see%20the%20latest%20laptop%20catalog." 
                               target="_blank" 
                               rel="noopener noreferrer" 
-                              style="font-weight: 700; color: var(--whatsapp);">+91 98855 54431</a></p>
+                              style="font-weight: 700; color: var(--whatsapp);">+91 81828 30905</a></p>
                     </div>
                 </div>
                 
@@ -111,12 +111,12 @@ include 'includes/header.php';
                         <label for="contact-requirement" class="form-label">What are you looking for? *</label>
                         <select id="contact-requirement" name="requirement" class="form-control" required>
                             <option value="" disabled selected>Select your requirement</option>
-                            <option value="Coding & Development">Laptops for Coding & Developers</option>
-                            <option value="Student Laptop">Student Laptops (Budget Friendly)</option>
-                            <option value="Apple MacBook">Apple MacBooks & iMacs</option>
-                            <option value="Apple Accessories">Apple Accessories (Magic Mouse, Keyboard)</option>
-                            <option value="Gaming & Workstation">Gaming & Workstation Laptops</option>
-                            <option value="Laptop Repair / Upgrade">Laptop Repair or RAM/SSD Upgrade</option>
+                            <option value="Developer Laptops">Developer Laptops</option>
+                            <option value="Student Laptops">Student Laptops</option>
+                            <option value="MacBooks & iMacs">MacBooks &amp; iMacs</option>
+                            <option value="Apple Accessories">Apple Accessories</option>
+                            <option value="Gaming Laptops">Gaming &amp; Workstation Laptops</option>
+                            <option value="Laptop Repair">Laptop Repair or Upgrade</option>
                         </select>
                     </div>
                     

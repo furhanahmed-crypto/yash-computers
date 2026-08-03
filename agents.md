@@ -1,6 +1,6 @@
 # Yash Computers - AI Agent Maintenance Guide
 
-Welcome, AI Agent! This guide explains how to maintain, expand, and debug the **Yash Computers** codebase. Please follow these guidelines to preserve the project's design system, code quality, and performance.
+Welcome, AI Agent! This guide explains how to maintain, expand, and debug the **Yash Computers** codebase. Please follow these guidelines to preserve the project's high-tech dark-red theme, code quality, and performance.
 
 ---
 
@@ -14,114 +14,47 @@ Welcome, AI Agent! This guide explains how to maintain, expand, and debug the **
 
 ---
 
-## 2. How to Add a New Page
+## 2. How to Add a New Category Page
 
-To add a new page (e.g., `services.php`):
+To add a new category page (e.g., `creator-laptops.php`):
 
 1. Create the file in the root directory:
    ```php
    <?php
    // Define page-specific SEO variables
-   $page_title = "Services | Yash Computers";
-   $page_description = "Explore our professional repair and upgrade services.";
-   $active_page = "services";
+   $page_title = "Refurbished Laptops for Content Creators in Hyderabad | Yash Computers";
+   $page_description = "Buy certified refurbished laptops for video editing, graphic design, and content creation in Hyderabad. 1-year warranty.";
+   $active_page = "creator-laptops";
 
    // Include Header
    include 'includes/header.php';
    ?>
 
    <!-- Page Content Here -->
-   <section class="section">
+   <section class="about-hero" style="background: radial-gradient(circle at 50% 50%, rgba(255, 0, 60, 0.1) 0%, rgba(0, 0, 0, 0) 80%);">
        <div class="container">
-           <!-- Content -->
+           <span class="badge badge-accent">Creative Power</span>
+           <h1>Laptops for Content Creators</h1>
+           <p>Engineered for video editors, graphic designers, and digital creators...</p>
        </div>
    </section>
+
+   <!-- Detailed Content & Spec Grid -->
+
+   <!-- Include Lead Form Section -->
+   <?php include 'sections/lead-form.php'; ?>
 
    <?php
    // Include Footer
    include 'includes/footer.php';
    ?>
    ```
-2. Add the page link to the navigation menu in `includes/header.php` and `includes/footer.php`.
-3. Add any custom styles to `assets/css/style.css` using existing CSS variables.
+2. Add the category link to the "Categories" column in `includes/footer.php`.
+3. Add a corresponding tab button and content panel in `sections/categories-tabs.php`.
 
 ---
 
-## 3. How to Add a New Category Tab
-
-To add a new tab to the categories section in `sections/categories-tabs.php`:
-
-1. Add a new `<button>` inside the `.tabs-nav` container:
-   ```html
-   <button class="tab-btn" data-tab="new-category-id">
-       <i class="fas fa-icon-name"></i> New Category Label
-   </button>
-   ```
-2. Add a corresponding `.tab-content` container inside `.tabs-content-container`:
-   ```html
-   <div class="tab-content" id="new-category-id">
-       <div class="category-grid">
-           <!-- Left: Info -->
-           <div class="category-info">
-               <span class="badge badge-primary">Badge Text</span>
-               <h3>New Category Title</h3>
-               <p class="category-description">Description text...</p>
-               <!-- Features, Models, and CTA -->
-           </div>
-           <!-- Right: Image -->
-           <div class="category-image-wrapper">
-               <img src="https://images.unsplash.com/photo-..." alt="Alt Text" class="category-image" width="550" height="380">
-               <span class="category-tag">Starts From ₹X,XXX</span>
-           </div>
-       </div>
-   </div>
-   ```
-3. The JavaScript in `assets/js/main.js` automatically handles the active state switching and AOS refresh. No JS modifications are required!
-
----
-
-## 4. How to Add a New Store Location
-
-To add a new store location in `stores.php`:
-
-1. Add a new `.store-card` inside the `.stores-grid` container:
-   ```html
-   <div class="store-card" data-aos="fade-up">
-       <div class="store-img-wrapper">
-           <img src="https://images.unsplash.com/photo-..." alt="Store Name" class="store-img" width="380" height="220">
-           <span class="store-status">Active Store</span>
-       </div>
-       <div class="store-info">
-           <h3>Store City / Area Name</h3>
-           <div class="store-details">
-               <div class="store-detail-item">
-                   <i class="fas fa-map-marker-alt"></i>
-                   <p>Full Address Here...</p>
-               </div>
-               <div class="store-detail-item">
-                   <i class="fas fa-phone-alt"></i>
-                   <p><a href="tel:+919885554431">+91 98855 54431</a></p>
-               </div>
-               <div class="store-detail-item">
-                   <i class="fas fa-clock"></i>
-                   <p>Working Hours...</p>
-               </div>
-           </div>
-           <div class="store-actions">
-               <a href="https://maps.google.com/?q=..." target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
-                   <i class="fas fa-directions"></i> Directions
-               </a>
-               <a href="https://wa.me/919885554431?text=..." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
-                   <i class="fab fa-whatsapp"></i> Chat Store
-               </a>
-           </div>
-       </div>
-   </div>
-   ```
-
----
-
-## 5. Contact Form & Lead Generation Maintenance
+## 3. Contact Form & Lead Generation Maintenance
 
 - **Form Validation**: Form validation is handled natively by HTML5 attributes (`required`, `type="tel"`, `pattern="[0-9]{10}"`).
 - **Simulated Submissions**: Submissions are intercepted in `assets/js/main.js` to provide a modern, single-page app feel. If you integrate a real backend (e.g., database or email service), you can modify the `submit` event listener in `assets/js/main.js` to send a `fetch` request to a PHP processing script (e.g., `process-lead.php`).
@@ -132,3 +65,4 @@ To add a new store location in `stores.php`:
   4. `assets/js/main.js` (form-to-whatsapp redirection)
   5. `stores.php` (individual store contact links)
   6. `contact.php` (sidebar links)
+  7. Every category page (e.g., `coding-laptops.php`, etc.)

@@ -46,7 +46,7 @@ include 'includes/header.php';
                         </div>
                         <div class="store-detail-item">
                             <i class="fas fa-phone-alt"></i>
-                            <p><a href="tel:+919885554431">+91 98855 54431</a></p>
+                            <p><a href="tel:+918182830905">+91 81828 30905</a></p>
                         </div>
                         <div class="store-detail-item">
                             <i class="fas fa-clock"></i>
@@ -60,7 +60,7 @@ include 'includes/header.php';
                            class="btn btn-outline btn-sm">
                             <i class="fas fa-directions"></i> Directions
                         </a>
-                        <a href="https://wa.me/919885554431?text=Hi%20Yash%20Computers%2C%20I%20want%20to%20visit%20your%20Ameerpet%20store." 
+                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20want%20to%20visit%20your%20Ameerpet%20store." 
                            target="_blank" 
                            rel="noopener noreferrer" 
                            class="btn btn-primary btn-sm">
@@ -89,7 +89,7 @@ include 'includes/header.php';
                         </div>
                         <div class="store-detail-item">
                             <i class="fas fa-phone-alt"></i>
-                            <p><a href="tel:+919885554431">+91 98855 54431</a></p>
+                            <p><a href="tel:+918182830905">+91 81828 30905</a></p>
                         </div>
                         <div class="store-detail-item">
                             <i class="fas fa-clock"></i>
@@ -103,7 +103,7 @@ include 'includes/header.php';
                            class="btn btn-outline btn-sm">
                             <i class="fas fa-directions"></i> Directions
                         </a>
-                        <a href="https://wa.me/919885554431?text=Hi%20Yash%20Computers%2C%20I%20want%20to%20visit%20your%20SR%20Nagar%20store." 
+                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20want%20to%20visit%20your%20SR%20Nagar%20store." 
                            target="_blank" 
                            rel="noopener noreferrer" 
                            class="btn btn-primary btn-sm">
@@ -132,7 +132,7 @@ include 'includes/header.php';
                         </div>
                         <div class="store-detail-item">
                             <i class="fas fa-phone-alt"></i>
-                            <p><a href="tel:+919885554431">+91 98855 54431</a></p>
+                            <p><a href="tel:+918182830905">+91 81828 30905</a></p>
                         </div>
                         <div class="store-detail-item">
                             <i class="fas fa-clock"></i>
@@ -140,7 +140,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                     <div class="store-actions" style="grid-template-columns: 1fr;">
-                        <a href="https://wa.me/919885554431?text=Hi%20Yash%20Computers%2C%20notify%20me%20when%20your%20Tirupati%20store%20opens." 
+                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20notify%20me%20when%20your%20Tirupati%20store%20opens." 
                            target="_blank" 
                            rel="noopener noreferrer" 
                            class="btn btn-accent btn-sm"

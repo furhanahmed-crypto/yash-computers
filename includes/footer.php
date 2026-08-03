@@ -28,21 +28,22 @@
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
                         <li><a href="index.php" class="footer-link"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="our-laptops.php" class="footer-link"><i class="fas fa-chevron-right"></i> Our Laptops</a></li>
                         <li><a href="about.php" class="footer-link"><i class="fas fa-chevron-right"></i> About Us</a></li>
                         <li><a href="stores.php" class="footer-link"><i class="fas fa-chevron-right"></i> Our Stores</a></li>
                         <li><a href="contact.php" class="footer-link"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
                     </ul>
                 </div>
                 
-                <!-- Column 3: Services -->
+                <!-- Column 3: Categories -->
                 <div class="footer-col">
-                    <h3>Our Services</h3>
+                    <h3>Categories</h3>
                     <ul class="footer-links">
-                        <li><a href="index.php#services-section" class="footer-link"><i class="fas fa-chevron-right"></i> Laptop Repair</a></li>
-                        <li><a href="index.php#services-section" class="footer-link"><i class="fas fa-chevron-right"></i> MacBook Repair</a></li>
-                        <li><a href="index.php#services-section" class="footer-link"><i class="fas fa-chevron-right"></i> Motherboard Chip-Level Repair</a></li>
-                        <li><a href="index.php#services-section" class="footer-link"><i class="fas fa-chevron-right"></i> Secure Data Recovery</a></li>
-                        <li><a href="index.php#services-section" class="footer-link"><i class="fas fa-chevron-right"></i> RAM & SSD Upgrades</a></li>
+                        <li><a href="developer-laptops.php" class="footer-link"><i class="fas fa-chevron-right"></i> Developer Laptops</a></li>
+                        <li><a href="student-laptops.php" class="footer-link"><i class="fas fa-chevron-right"></i> Student Laptops</a></li>
+                        <li><a href="macbooks.php" class="footer-link"><i class="fas fa-chevron-right"></i> MacBooks &amp; iMacs</a></li>
+                        <li><a href="apple-accessories.php" class="footer-link"><i class="fas fa-chevron-right"></i> Apple Accessories</a></li>
+                        <li><a href="gaming-laptops.php" class="footer-link"><i class="fas fa-chevron-right"></i> Gaming Laptops</a></li>
                     </ul>
                 </div>
                 
@@ -61,7 +62,7 @@
                             <i class="fas fa-phone-alt"></i>
                             <span>
                                 <strong>Phone:</strong>
-                                <a href="tel:+919885554431" style="color: var(--text-muted);">+91 98855 54431</a>
+                                <a href="tel:+918182830905" style="color: var(--text-muted);">+91 81828 30905</a>
                             </span>
                         </div>
                         <div class="footer-contact-item">

@@ -1,50 +1,46 @@
 <?php
 /**
- * Yash Computers - Categories Tabs Section
- * Displays category tabs and dynamically switches content with a modern layout.
- * Includes "Know More" buttons redirecting to dedicated category pages for SEO.
+ * Laptop Range Tabs Section
+ * Interactive tabs for browsing refurbished laptop types.
+ * "Know More" links to dedicated SEO landing pages.
  */
 ?>
-<section class="section categories-tabs-section" id="categories-section">
+<section class="section laptop-range-section" id="laptop-range">
     <div class="container">
-        <!-- Section Header -->
         <div class="section-header" data-aos="fade-up">
-            <span class="badge badge-secondary">Explore Categories</span>
-            <h2>Find the Perfect Match for Your Needs</h2>
-            <p>Browse our curated categories of certified refurbished laptops and devices, tailored for professionals, students, creators, and gamers.</p>
+            <span class="badge badge-secondary">Laptop Range</span>
+            <h2>Find the Right Laptop for You</h2>
+            <p>Certified refurbished machines for developers, students, Apple users, and gamers — each backed by warranty and expert support.</p>
         </div>
-        
-        <!-- Tab Navigation Buttons -->
+
         <div class="tabs-nav" data-aos="fade-up" data-aos-delay="100">
-            <button class="tab-btn active" data-tab="coding-laptops">
-                <i class="fas fa-code"></i> Coding & Developers
+            <button class="tab-btn active" data-tab="tab-developer">
+                <i class="fas fa-code"></i> Developer Laptops
             </button>
-            <button class="tab-btn" data-tab="student-laptops">
+            <button class="tab-btn" data-tab="tab-student">
                 <i class="fas fa-user-graduate"></i> Student Laptops
             </button>
-            <button class="tab-btn" data-tab="apple-devices">
-                <i class="fab fa-apple"></i> Apple Devices
+            <button class="tab-btn" data-tab="tab-macbooks">
+                <i class="fab fa-apple"></i> MacBooks &amp; iMacs
             </button>
-            <button class="tab-btn" data-tab="apple-ecosystem">
-                <i class="fas fa-tablet-alt"></i> Apple
+            <button class="tab-btn" data-tab="tab-accessories">
+                <i class="fas fa-keyboard"></i> Apple Accessories
             </button>
-            <button class="tab-btn" data-tab="gaming-workstations">
-                <i class="fas fa-gamepad"></i> Gaming & Workstations
+            <button class="tab-btn" data-tab="tab-gaming">
+                <i class="fas fa-gamepad"></i> Gaming Laptops
             </button>
         </div>
-        
-        <!-- Tab Contents -->
+
         <div class="tabs-content-container">
-            
-            <!-- Tab 1: Laptops for Coding & Developers -->
-            <div class="tab-content active" id="coding-laptops">
+
+            <!-- Developer Laptops -->
+            <div class="tab-content active" id="tab-developer">
                 <div class="category-grid">
-                    <!-- Left: Info -->
                     <div class="category-info" data-aos="fade-right">
-                        <span class="badge badge-primary">Power & Performance</span>
-                        <h3>Laptops for Coding & Developers</h3>
-                        <p class="category-description">Engineered for software developers, web designers, and IT professionals who require fast compiling, heavy multitasking, and seamless virtualization capabilities.</p>
-                        
+                        <span class="badge badge-primary">Power &amp; Performance</span>
+                        <h3>Developer Laptops</h3>
+                        <p class="category-description">Built for software developers, web designers, and IT pros who need fast compiles, heavy multitasking, and solid virtualization.</p>
+
                         <div class="category-features">
                             <div class="category-feature-item">
                                 <i class="fas fa-microchip"></i>
@@ -70,48 +66,46 @@
                             <div class="category-feature-item">
                                 <i class="fas fa-terminal"></i>
                                 <div class="category-feature-text">
-                                    Linux & Docker Ready
+                                    Linux &amp; Docker Ready
                                     <span>Fully compatible with dev tools</span>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div style="margin-bottom: 2rem;">
-                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 0.9375rem; color: var(--text-light);">Popular Models:</strong>
-                            <p style="font-size: 0.9375rem; color: var(--text-secondary);">Lenovo ThinkPad T490, Dell Latitude 5490 (i7), HP EliteBook 840 G6</p>
+
+                        <div class="category-models">
+                            <strong>Popular Models:</strong>
+                            <p>Lenovo ThinkPad T490, Dell Latitude 5490 (i7), HP EliteBook 840 G6</p>
                         </div>
-                        
-                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                            <a href="coding-laptops.php" class="btn btn-secondary">
+
+                        <div class="category-actions">
+                            <a href="developer-laptops.php" class="btn btn-secondary">
                                 <i class="fas fa-info-circle"></i> Know More
                             </a>
-                            <a href="#lead-form-section" class="btn btn-primary">
+                            <a href="contact.php#lead-form-section" class="btn btn-primary">
                                 <i class="fab fa-whatsapp"></i> Get Developer Pricing
                             </a>
                         </div>
                     </div>
-                    
-                    <!-- Right: Image -->
+
                     <div class="category-image-wrapper" data-aos="fade-left">
-                        <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80" 
-                             alt="Laptops for Coding & Developers" 
-                             class="category-image" 
-                             width="550" 
+                        <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80"
+                             alt="Developer coding on refurbished laptop"
+                             class="category-image"
+                             width="550"
                              height="380">
                         <span class="category-tag">Starts From ₹17,999</span>
                     </div>
                 </div>
             </div>
-            
-            <!-- Tab 2: Student Laptops -->
-            <div class="tab-content" id="student-laptops">
+
+            <!-- Student Laptops -->
+            <div class="tab-content" id="tab-student">
                 <div class="category-grid">
-                    <!-- Left: Info -->
                     <div class="category-info">
-                        <span class="badge badge-secondary">Affordable & Reliable</span>
+                        <span class="badge badge-secondary">Affordable &amp; Reliable</span>
                         <h3>Student Laptops</h3>
-                        <p class="category-description">Perfect for online classes, assignments, research, and project work. These laptops offer the perfect balance of durability, long battery life, and budget-friendly pricing.</p>
-                        
+                        <p class="category-description">Ideal for online classes, assignments, and projects — durable builds, long battery life, and student-friendly pricing.</p>
+
                         <div class="category-features">
                             <div class="category-feature-item">
                                 <i class="fas fa-wallet"></i>
@@ -124,67 +118,65 @@
                                 <i class="fas fa-battery-full"></i>
                                 <div class="category-feature-text">
                                     Long Battery Life
-                                    <span>6+ Hours backup for long lectures</span>
+                                    <span>6+ hours backup for lectures</span>
                                 </div>
                             </div>
                             <div class="category-feature-item">
                                 <i class="fas fa-feather-alt"></i>
                                 <div class="category-feature-text">
-                                    Lightweight & Portable
+                                    Lightweight &amp; Portable
                                     <span>Easy to carry in backpacks</span>
                                 </div>
                             </div>
                             <div class="category-feature-item">
                                 <i class="fas fa-camera"></i>
                                 <div class="category-feature-text">
-                                    HD Webcam & Mic
-                                    <span>Optimized for Zoom & MS Teams</span>
+                                    HD Webcam &amp; Mic
+                                    <span>Optimized for Zoom &amp; MS Teams</span>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div style="margin-bottom: 2rem;">
-                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 0.9375rem; color: var(--text-light);">Popular Models:</strong>
-                            <p style="font-size: 0.9375rem; color: var(--text-secondary);">Dell Latitude 3480, HP Notebook 240 G6, Lenovo ThinkPad L480</p>
+
+                        <div class="category-models">
+                            <strong>Popular Models:</strong>
+                            <p>Dell Latitude 3480, HP Notebook 240 G6, Lenovo ThinkPad L480</p>
                         </div>
-                        
-                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+                        <div class="category-actions">
                             <a href="student-laptops.php" class="btn btn-secondary">
                                 <i class="fas fa-info-circle"></i> Know More
                             </a>
-                            <a href="#lead-form-section" class="btn btn-primary">
+                            <a href="contact.php#lead-form-section" class="btn btn-primary">
                                 <i class="fab fa-whatsapp"></i> Get Student Discount
                             </a>
                         </div>
                     </div>
-                    
-                    <!-- Right: Image -->
+
                     <div class="category-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80" 
-                             alt="Student Laptops" 
-                             class="category-image" 
-                             width="550" 
+                        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80"
+                             alt="Student using refurbished laptop"
+                             class="category-image"
+                             width="550"
                              height="380">
                         <span class="category-tag">Starts From ₹10,000</span>
                     </div>
                 </div>
             </div>
-            
-            <!-- Tab 3: Apple Devices -->
-            <div class="tab-content" id="apple-devices">
+
+            <!-- MacBooks & iMacs -->
+            <div class="tab-content" id="tab-macbooks">
                 <div class="category-grid">
-                    <!-- Left: Info -->
                     <div class="category-info">
-                        <span class="badge badge-accent">Premium & Sleek</span>
-                        <h3>Apple Devices</h3>
-                        <p class="category-description">Experience the premium performance and design of Apple MacBooks, iMacs, and Mac Minis. Ideal for iOS developers, UI/UX designers, and creative professionals.</p>
-                        
+                        <span class="badge badge-accent">Premium &amp; Sleek</span>
+                        <h3>MacBooks &amp; iMacs</h3>
+                        <p class="category-description">Certified refurbished MacBook Air, MacBook Pro, iMac, and Mac Mini — ideal for designers, iOS developers, and creative pros.</p>
+
                         <div class="category-features">
                             <div class="category-feature-item">
                                 <i class="fab fa-apple"></i>
                                 <div class="category-feature-text">
                                     Apple Silicon Chips
-                                    <span>M1, M2, and M3 Chip models available</span>
+                                    <span>M1, M2, and M3 models available</span>
                                 </div>
                             </div>
                             <div class="category-feature-item">
@@ -197,7 +189,7 @@
                             <div class="category-feature-item">
                                 <i class="fas fa-wind"></i>
                                 <div class="category-feature-text">
-                                    Silent & Fast
+                                    Silent &amp; Fast
                                     <span>Thermal efficiency and high performance</span>
                                 </div>
                             </div>
@@ -205,47 +197,45 @@
                                 <i class="fas fa-shield-virus"></i>
                                 <div class="category-feature-text">
                                     Secure macOS
-                                    <span>Latest macOS compatibility and security</span>
+                                    <span>Latest macOS compatibility</span>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div style="margin-bottom: 2rem;">
-                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 0.9375rem; color: var(--text-light);">Popular Models:</strong>
-                            <p style="font-size: 0.9375rem; color: var(--text-secondary);">MacBook Air A1466, MacBook Pro M1 (16GB RAM), Mac Mini M1</p>
+
+                        <div class="category-models">
+                            <strong>Popular Models:</strong>
+                            <p>MacBook Air A1466, MacBook Pro M1 (16GB RAM), Mac Mini M1</p>
                         </div>
-                        
-                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                            <a href="apple-devices.php" class="btn btn-secondary">
+
+                        <div class="category-actions">
+                            <a href="macbooks.php" class="btn btn-secondary">
                                 <i class="fas fa-info-circle"></i> Know More
                             </a>
-                            <a href="#lead-form-section" class="btn btn-primary">
+                            <a href="contact.php#lead-form-section" class="btn btn-primary">
                                 <i class="fab fa-whatsapp"></i> Request MacBook Catalog
                             </a>
                         </div>
                     </div>
-                    
-                    <!-- Right: Image -->
+
                     <div class="category-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80" 
-                             alt="Apple Devices" 
-                             class="category-image" 
-                             width="550" 
+                        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+                             alt="Refurbished MacBook Pro"
+                             class="category-image"
+                             width="550"
                              height="380">
                         <span class="category-tag">Starts From ₹14,999</span>
                     </div>
                 </div>
             </div>
-            
-            <!-- Tab 4: Apple (Ecosystem & Accessories) -->
-            <div class="tab-content" id="apple-ecosystem">
+
+            <!-- Apple Accessories -->
+            <div class="tab-content" id="tab-accessories">
                 <div class="category-grid">
-                    <!-- Left: Info -->
                     <div class="category-info">
                         <span class="badge badge-primary">Genuine Accessories</span>
-                        <h3>Apple Ecosystem & Accessories</h3>
-                        <p class="category-description">Complete your Apple setup with certified refurbished Apple accessories and devices. We supply genuine Apple Magic Mice, Keyboards, iPads, and other peripherals at unbeatable prices.</p>
-                        
+                        <h3>Apple Accessories</h3>
+                        <p class="category-description">Verified Apple Magic Mouse, Magic Keyboard, iPads, and peripherals — authentic products at refurbished prices.</p>
+
                         <div class="category-features">
                             <div class="category-feature-item">
                                 <i class="fas fa-mouse"></i>
@@ -258,74 +248,72 @@
                                 <i class="fas fa-keyboard"></i>
                                 <div class="category-feature-text">
                                     Magic Keyboard
-                                    <span>Sleek, rechargeable typing experience</span>
+                                    <span>Sleek, rechargeable typing</span>
                                 </div>
                             </div>
                             <div class="category-feature-item">
                                 <i class="fas fa-tablet-alt"></i>
                                 <div class="category-feature-text">
                                     Apple iPads
-                                    <span>Refurbished iPads for sketching & reading</span>
+                                    <span>For sketching, reading &amp; media</span>
                                 </div>
                             </div>
                             <div class="category-feature-item">
                                 <i class="fas fa-check-double"></i>
                                 <div class="category-feature-text">
                                     100% Genuine
-                                    <span>Every accessory is verified authentic</span>
+                                    <span>Serial-verified authenticity</span>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div style="margin-bottom: 2rem;">
-                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 0.9375rem; color: var(--text-light);">Popular Items:</strong>
-                            <p style="font-size: 0.9375rem; color: var(--text-secondary);">Apple Magic Mouse (A1657), Apple Magic Keyboard, iPad Air 4th Gen</p>
+
+                        <div class="category-models">
+                            <strong>Popular Items:</strong>
+                            <p>Apple Magic Mouse (A1657), Apple Magic Keyboard, iPad Air 4th Gen</p>
                         </div>
-                        
-                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+                        <div class="category-actions">
                             <a href="apple-accessories.php" class="btn btn-secondary">
                                 <i class="fas fa-info-circle"></i> Know More
                             </a>
-                            <a href="#lead-form-section" class="btn btn-primary">
+                            <a href="contact.php#lead-form-section" class="btn btn-primary">
                                 <i class="fab fa-whatsapp"></i> Inquire Accessories
                             </a>
                         </div>
                     </div>
-                    
-                    <!-- Right: Image -->
+
                     <div class="category-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80" 
-                             alt="Apple Accessories" 
-                             class="category-image" 
-                             width="550" 
+                        <img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80"
+                             alt="Genuine Apple accessories"
+                             class="category-image"
+                             width="550"
                              height="380">
                         <span class="category-tag">Starts From ₹3,000</span>
                     </div>
                 </div>
             </div>
-            
-            <!-- Tab 5: Gaming & Workstation Laptops -->
-            <div class="tab-content" id="gaming-workstations">
+
+            <!-- Gaming Laptops -->
+            <div class="tab-content" id="tab-gaming">
                 <div class="category-grid">
-                    <!-- Left: Info -->
                     <div class="category-info">
                         <span class="badge badge-accent">Extreme Power</span>
-                        <h3>Gaming & Workstation Laptops</h3>
-                        <p class="category-description">Heavy-duty machines equipped with dedicated graphics cards, designed for high-end gaming, 3D rendering, video editing, CAD modeling, and data science applications.</p>
-                        
+                        <h3>Gaming &amp; Workstation Laptops</h3>
+                        <p class="category-description">Dedicated GPUs for gaming, 3D rendering, video editing, CAD, and data-heavy workloads — at a fraction of new retail prices.</p>
+
                         <div class="category-features">
                             <div class="category-feature-item">
                                 <i class="fas fa-microchip"></i>
                                 <div class="category-feature-text">
                                     Dedicated GPU
-                                    <span>NVIDIA GeForce RTX / Quadro Graphics</span>
+                                    <span>NVIDIA GeForce RTX / Quadro</span>
                                 </div>
                             </div>
                             <div class="category-feature-item">
                                 <i class="fas fa-fan"></i>
                                 <div class="category-feature-text">
                                     Advanced Cooling
-                                    <span>Dual-fan thermal systems for heavy loads</span>
+                                    <span>Dual-fan systems for heavy loads</span>
                                 </div>
                             </div>
                             <div class="category-feature-item">
@@ -339,38 +327,37 @@
                                 <i class="fas fa-server"></i>
                                 <div class="category-feature-text">
                                     Workstation Reliability
-                                    <span>Intel Xeon / Core i9 processing power</span>
+                                    <span>Intel Xeon / Core i9 power</span>
                                 </div>
                             </div>
                         </div>
-                        
-                        <div style="margin-bottom: 2rem;">
-                            <strong style="display: block; margin-bottom: 0.5rem; font-size: 0.9375rem; color: var(--text-light);">Popular Models:</strong>
-                            <p style="font-size: 0.9375rem; color: var(--text-secondary);">Dell Precision 5810, HP ZBook Studio, Lenovo Legion, Dell G15</p>
+
+                        <div class="category-models">
+                            <strong>Popular Models:</strong>
+                            <p>Dell Precision 5810, HP ZBook Studio, Lenovo Legion, Dell G15</p>
                         </div>
-                        
-                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                            <a href="gaming-workstations.php" class="btn btn-secondary">
+
+                        <div class="category-actions">
+                            <a href="gaming-laptops.php" class="btn btn-secondary">
                                 <i class="fas fa-info-circle"></i> Know More
                             </a>
-                            <a href="#lead-form-section" class="btn btn-primary">
+                            <a href="contact.php#lead-form-section" class="btn btn-primary">
                                 <i class="fab fa-whatsapp"></i> Get Custom Quote
                             </a>
                         </div>
                     </div>
-                    
-                    <!-- Right: Image -->
+
                     <div class="category-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1603481588273-2f908a9a7a1b?auto=format&fit=crop&w=800&q=80" 
-                             alt="Gaming & Workstation Laptops" 
-                             class="category-image" 
-                             width="550" 
+                        <img src="https://images.unsplash.com/photo-1603481588273-2f908a9a7a1b?auto=format&fit=crop&w=800&q=80"
+                             alt="Gaming and workstation laptop"
+                             class="category-image"
+                             width="550"
                              height="380">
                         <span class="category-tag">Starts From ₹25,000</span>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>

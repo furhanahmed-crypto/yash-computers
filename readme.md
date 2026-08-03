@@ -1,6 +1,6 @@
 # Yash Computers Website
 
-A highly modern, responsive, and lead-optimized landing page website for **Yash Computers**, a trusted retailer of premium certified refurbished laptops and professional repair services.
+A highly modern, responsive, and SEO-optimized landing page website for **Yash Computers**, a trusted retailer of premium certified refurbished laptops and professional repair services.
 
 ---
 
@@ -12,13 +12,14 @@ The primary purpose of this website is to **generate high-quality sales leads**.
 
 ## ✨ Key Features
 
-- **Modern UI/UX**: Built with a clean, high-contrast, professional dark/light theme utilizing the modern `'Plus Jakarta Sans'` typeface.
-- **Interactive Category Tabs**: A dedicated section that displays five distinct categories:
-  - Laptops for Coding & Developers
-  - Student Laptops
-  - Apple Devices
-  - Apple (Accessories & Ecosystem)
-  - Gaming & Workstation Laptops
+- **High-Tech Dark Red Theme**: Built with a clean, high-contrast, professional dark mode aesthetic utilizing the modern `'Plus Jakarta Sans'` typeface and vibrant neon red accents, inspired by the official **Yash Computers** logo.
+- **SEO-Friendly Architecture**: Features **five dedicated, SEO-optimized landing pages** for each category to maximize organic search traffic:
+  - [Laptops for Coding & Developers](coding-laptops.php)
+  - [Student Laptops](student-laptops.php)
+  - [Apple Devices](apple-devices.php)
+  - [Apple Ecosystem & Accessories](apple-accessories.php)
+  - [Gaming & Workstation Laptops](gaming-workstations.php)
+- **Interactive Category Tabs**: A dedicated section on the home page that displays the five categories with a dynamic "Know More" button redirecting to their respective SEO landing pages.
 - **Floating Call & WhatsApp Action Buttons**: Fixed at the bottom-right corner of every page with attention-grabbing pulse animations.
 - **Animate On Scroll (AOS)**: Fluid animations (fade, slide, zoom) as users explore the site.
 - **Rigorous 50-Step Quality Process**: Transparently showcases the refurbishment process to build immediate brand trust.
@@ -38,41 +39,29 @@ The primary purpose of this website is to **generate high-quality sales leads**.
 
 ---
 
-## 📂 Project Structure
+## Pages
 
-```
-yash-computers/
-├── index.php                 # Home Page (Landing Page)
-├── about.php                 # About Us Page (Story & Audit Process)
-├── stores.php                # Stores Page (Physical Locations)
-├── contact.php               # Contact Us Page (Form, Map, & FAQs)
-├── design.md                 # Design & Architecture Document
-├── agents.md                 # AI Agent Maintenance Guide
-├── readme.md                 # This file
-│
-├── includes/                 # Reusable Global Layouts
-│   ├── header.php            # SEO Meta, Navigation Bar, & CDNs
-│   ├── footer.php            # Footer Columns, Copyright, & Scripts
-│   └── whatsapp-call-widget.php # Fixed Floating Action Buttons
-│
-├── sections/                 # Reusable Page Sections
-│   ├── hero.php              # Hero Banner with CTAs & Trust Badges
-│   ├── stats.php             # Key Statistics & Achievements
-│   ├── categories-tabs.php   # Interactive Category Tabs
-│   ├── why-choose-us.php     # 50-Step Quality Process & Value Prop
-│   ├── services.php          # Repair & Upgrade Services Grid
-│   ├── testimonials.php      # Verified Google Reviews
-│   ├── lead-form.php         # Main Lead Capture Form
-│   └── cta-banner.php        # Call-To-Action Banner
-│
-└── assets/                   # Static Assets
-    ├── css/
-    │   └── style.css         # Main Stylesheet (Design System & Media Queries)
-    ├── js/
-    │   └── main.js           # Navigation, Tabs, FAQ, Form Handling, & AOS
-    └── images/
-        └── favicon.svg       # Custom SVG Favicon (Laptop + Code)
-```
+| File | Purpose |
+|------|---------|
+| `index.php` | Home / landing |
+| `our-laptops.php` | Laptop range (tabs) |
+| `developer-laptops.php` | SEO — developer laptops |
+| `student-laptops.php` | SEO — student laptops |
+| `macbooks.php` | SEO — MacBooks & iMacs |
+| `apple-accessories.php` | SEO — Apple accessories |
+| `gaming-laptops.php` | SEO — gaming / workstations |
+| `about.php` | About |
+| `stores.php` | Store locations |
+| `contact.php` | Contact + FAQ |
+
+Nav label for the range page: **Our Laptops** (not “Explore Categories”).
+
+Tabs (clear, non-duplicate):
+1. Developer Laptops
+2. Student Laptops
+3. MacBooks & iMacs
+4. Apple Accessories
+5. Gaming Laptops
 
 ---
 

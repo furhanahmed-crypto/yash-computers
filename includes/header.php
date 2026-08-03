@@ -66,20 +66,17 @@ if (!isset($active_page)) {
                 <!-- Navigation Menu -->
                 <nav class="nav-menu" id="navMenu">
                     <a href="index.php" class="nav-link <?php echo ($active_page === 'home') ? 'active' : ''; ?>">Home</a>
+                    <a href="our-laptops.php" class="nav-link <?php echo ($active_page === 'our-laptops') ? 'active' : ''; ?>">Our Laptops</a>
                     <a href="about.php" class="nav-link <?php echo ($active_page === 'about') ? 'active' : ''; ?>">About Us</a>
                     <a href="stores.php" class="nav-link <?php echo ($active_page === 'stores') ? 'active' : ''; ?>">Stores</a>
                     <a href="contact.php" class="nav-link <?php echo ($active_page === 'contact') ? 'active' : ''; ?>">Contact Us</a>
-                    
-                    <!-- Mobile CTA Button -->
-                    <a href="contact.php#lead-form-section" class="btn btn-primary btn-sm mobile-only-btn">Get Free Quote</a>
                 </nav>
                 
-                <!-- Desktop CTA Buttons -->
+                <!-- Desktop CTA -->
                 <div class="nav-cta">
-                    <a href="tel:+919885554431" class="btn btn-outline btn-sm">
-                        <i class="fas fa-phone-alt"></i> +91 98855 54431
+                    <a href="tel:+918182830905" class="btn btn-outline btn-sm">
+                        <i class="fas fa-phone-alt"></i> +91 81828 30905
                     </a>
-                    <a href="contact.php#lead-form-section" class="btn btn-primary btn-sm">Get Free Quote</a>
                 </div>
                 
                 <!-- Mobile Menu Toggle -->

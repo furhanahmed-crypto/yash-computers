@@ -63,12 +63,12 @@
                         <label for="lead-requirement" class="form-label">What are you looking for? *</label>
                         <select id="lead-requirement" name="requirement" class="form-control" required>
                             <option value="" disabled selected>Select your requirement</option>
-                            <option value="Coding & Development">Laptops for Coding & Developers</option>
-                            <option value="Student Laptop">Student Laptops (Budget Friendly)</option>
-                            <option value="Apple MacBook">Apple MacBooks & iMacs</option>
-                            <option value="Apple Accessories">Apple Accessories (Magic Mouse, Keyboard)</option>
-                            <option value="Gaming & Workstation">Gaming & Workstation Laptops</option>
-                            <option value="Laptop Repair / Upgrade">Laptop Repair or RAM/SSD Upgrade</option>
+                            <option value="Developer Laptops">Developer Laptops</option>
+                            <option value="Student Laptops">Student Laptops</option>
+                            <option value="MacBooks & iMacs">MacBooks &amp; iMacs</option>
+                            <option value="Apple Accessories">Apple Accessories</option>
+                            <option value="Gaming Laptops">Gaming &amp; Workstation Laptops</option>
+                            <option value="Laptop Repair">Laptop Repair or Upgrade</option>
                         </select>
                     </div>
                     

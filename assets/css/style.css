@@ -657,8 +657,31 @@ p {
 /* --------------------------------------------------
  * Categories Tabs Section (Glassmorphic Tabs)
  * -------------------------------------------------- */
+.laptop-range-section,
 .categories-tabs-section {
     background-color: var(--bg-primary);
+}
+
+.category-models {
+    margin-bottom: 2rem;
+}
+
+.category-models strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9375rem;
+    color: var(--text-light);
+}
+
+.category-models p {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+}
+
+.category-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .tabs-nav {

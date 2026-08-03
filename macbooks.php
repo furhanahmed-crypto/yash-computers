@@ -1,13 +1,13 @@
 <?php
 /**
- * Yash Computers - Apple Devices (Category Page)
+ * Yash Computers - MacBooks & iMacs (Category Page)
  * Highly optimized for SEO, targeting Apple buyers and creative professionals in Hyderabad.
  */
 
 // Define page-specific SEO variables
 $page_title = "Refurbished Apple MacBooks & iMacs in Hyderabad | Yash Computers";
 $page_description = "Buy certified refurbished Apple MacBook Air, MacBook Pro, iMac, and Mac Mini in Hyderabad. 100% genuine Apple devices with warranty starting from ₹14,999.";
-$active_page = "apple-devices";
+$active_page = "macbooks";
 
 // Include Header
 include 'includes/header.php';
@@ -17,7 +17,7 @@ include 'includes/header.php';
 <section class="about-hero" style="background: radial-gradient(circle at 50% 50%, rgba(255, 0, 60, 0.1) 0%, rgba(0, 0, 0, 0) 80%);">
     <div class="container" data-aos="zoom-in">
         <span class="badge badge-accent">Premium & Sleek</span>
-        <h1>Apple MacBooks & Devices</h1>
+        <h1>MacBooks & iMacs</h1>
         <p>Experience the premium performance and design of Apple MacBooks, iMacs, and Mac Minis. Ideal for iOS developers, UI/UX designers, and creative professionals.</p>
     </div>
 </section>
@@ -37,7 +37,7 @@ include 'includes/header.php';
                     <a href="#lead-form-section" class="btn btn-primary btn-lg">
                         <i class="fab fa-whatsapp"></i> Request MacBook Catalog
                     </a>
-                    <a href="tel:+919885554431" class="btn btn-outline btn-lg">
+                    <a href="tel:+918182830905" class="btn btn-outline btn-lg">
                         <i class="fas fa-phone-alt"></i> Call Executive
                     </a>
                 </div>
@@ -58,7 +58,7 @@ include 'includes/header.php';
         <!-- Tech Specifications Grid -->
         <div class="section-header" data-aos="fade-up" style="margin-bottom: 3.5rem;">
             <span class="badge badge-primary">Quality Assurance</span>
-            <h2>How We Audit Our Refurbished Apple Devices</h2>
+            <h2>How We Audit Our Refurbished MacBooks & iMacs</h2>
             <p>Our Apple certified technicians perform specialized diagnostic checks to guarantee premium performance.</p>
         </div>
 
@@ -116,7 +116,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹19,999 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹55,000</span></span>
-                        <a href="https://wa.me/919885554431?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20MacBook%20Air%20A1466." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20MacBook%20Air%20A1466." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹14,999 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹42,000</span></span>
-                        <a href="https://wa.me/919885554431?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20MacBook%20Pro%20A1278." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20MacBook%20Pro%20A1278." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹49,999 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹1,19,999</span></span>
-                        <a href="https://wa.me/919885554431?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20MacBook%20Pro%20M1." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20MacBook%20Pro%20M1." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>

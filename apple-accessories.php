@@ -17,8 +17,8 @@ include 'includes/header.php';
 <section class="about-hero" style="background: radial-gradient(circle at 50% 50%, rgba(255, 0, 60, 0.1) 0%, rgba(0, 0, 0, 0) 80%);">
     <div class="container" data-aos="zoom-in">
         <span class="badge badge-primary">Genuine Accessories</span>
-        <h1>Apple Ecosystem & Accessories</h1>
-        <p>Complete your Apple setup with certified refurbished Apple accessories and devices. We supply genuine Apple Magic Mice, Keyboards, iPads, and other peripherals at unbeatable prices.</p>
+        <h1>Apple Accessories</h1>
+        <p>Complete your Apple setup with certified refurbished Magic Mice, Keyboards, iPads, and peripherals at unbeatable prices.</p>
     </div>
 </section>
 
@@ -37,7 +37,7 @@ include 'includes/header.php';
                     <a href="#lead-form-section" class="btn btn-primary btn-lg">
                         <i class="fab fa-whatsapp"></i> Inquire Accessories
                     </a>
-                    <a href="tel:+919885554431" class="btn btn-outline btn-lg">
+                    <a href="tel:+918182830905" class="btn btn-outline btn-lg">
                         <i class="fas fa-phone-alt"></i> Call Executive
                     </a>
                 </div>
@@ -115,7 +115,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹3,000 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹7,500</span></span>
-                        <a href="https://wa.me/919885554431?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20Magic%20Mouse." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20Magic%20Mouse." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹4,500 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹9,900</span></span>
-                        <a href="https://wa.me/919885554431?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20Magic%20Keyboard." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20Magic%20Keyboard." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>
@@ -157,7 +157,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹24,999 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹54,900</span></span>
-                        <a href="https://wa.me/919885554431?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20iPad%20Air." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Apple%20iPad%20Air." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>
