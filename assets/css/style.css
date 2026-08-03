@@ -1613,7 +1613,12 @@ select.form-control {
 .stores-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 1.25rem;
+}
+
+.stores-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
 }
 
 .store-card {
@@ -1699,9 +1704,13 @@ select.form-control {
 }
 
 .store-actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.store-actions .btn {
+    width: 100%;
 }
 
 /* --------------------------------------------------
@@ -1893,6 +1902,10 @@ select.form-control {
     .services-grid, .testimonials-grid, .stores-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .stores-grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
     .audit-steps-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -2009,7 +2022,7 @@ select.form-control {
         gap: 1.5rem;
     }
     
-    .services-grid, .testimonials-grid, .stores-grid, .audit-steps-grid {
+    .services-grid, .testimonials-grid, .stores-grid, .stores-grid-4, .audit-steps-grid {
         grid-template-columns: 1fr;
     }
     

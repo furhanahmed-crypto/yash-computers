@@ -49,13 +49,13 @@
                 
                 <!-- Column 4: Contact Info -->
                 <div class="footer-col">
-                    <h3>Head Office</h3>
+                    <h3>Contact</h3>
                     <div class="footer-contact-info">
                         <div class="footer-contact-item">
                             <i class="fas fa-map-marker-alt"></i>
                             <span>
-                                <strong>Address:</strong>
-                                Siri Towers, Plot No 402, Meghamala Apartment Road, beside Aster Prime Hospital, Ameerpet, Hyderabad, Telangana—500038
+                                <strong>Stores:</strong>
+                                Suchitra · Ameerpet · Kukatpally · Vijayawada
                             </span>
                         </div>
                         <div class="footer-contact-item">
@@ -69,7 +69,7 @@
                             <i class="fas fa-envelope"></i>
                             <span>
                                 <strong>Email:</strong>
-                                <a href="mailto:yashcomputershyd@gmail.com" style="color: var(--text-muted);">yashcomputershyd@gmail.com</a>
+                                <a href="mailto:test@gmail.com" style="color: var(--text-muted);">test@gmail.com</a>
                             </span>
                         </div>
                     </div>

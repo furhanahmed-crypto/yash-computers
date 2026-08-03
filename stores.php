@@ -1,164 +1,187 @@
 <?php
 /**
- * Yash Computers - Store Locations Page
- * Displays various physical store locations with contact details, maps, and hours.
+ * Store Locations Page
+ * Suchitra, Ameerpet, Kukatpally (Hyderabad) and Vijayawada.
  */
 
-// Define page-specific SEO variables
-$page_title = "Our Store Locations | Yash Computers | Hyderabad, Tirupati";
-$page_description = "Visit Yash Computers stores in Ameerpet, SR Nagar, and Tirupati. Touch, feel, and test our wide range of refurbished laptops before you purchase.";
+$page_title = "Visit Our Stores | Suchitra, Ameerpet, Kukatpally & Vijayawada | Yash Computers";
+$page_description = "Visit Yash Computers stores in Suchitra, Ameerpet, Kukatpally (Hyderabad) and Vijayawada. Call or WhatsApp your nearest branch for refurbished laptops.";
 $active_page = "stores";
 
-// Include Header
 include 'includes/header.php';
 ?>
 
-<!-- Stores Hero Section -->
 <section class="about-hero">
     <div class="container" data-aos="zoom-in">
         <span class="badge badge-primary">Our Stores</span>
         <h1>Visit Our Stores</h1>
-        <p>Yash Computers has multiple physical stores across Telangana and Andhra Pradesh. Stop by to test and verify your laptop before making a decision!</p>
+        <p>Find your nearest Yash Computers branch across Hyderabad and Vijayawada. Call or WhatsApp for stock, pricing, and store timings.</p>
     </div>
 </section>
 
-<!-- Stores Grid Section -->
 <section class="section">
     <div class="container">
-        <div class="stores-grid">
-            
-            <!-- Store 1: Ameerpet (Head Office) -->
+        <div class="stores-grid stores-grid-4">
+
+            <!-- Suchitra -->
             <div class="store-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="store-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80" 
-                         alt="Yash Computers Ameerpet Store" 
+                    <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80"
+                         alt="Yash Computers Suchitra Store"
                          class="store-img"
-                         width="380" 
+                         width="380"
                          height="220">
-                    <span class="store-status">Main Branch</span>
+                    <span class="store-status">Hyderabad</span>
                 </div>
                 <div class="store-info">
-                    <h3>Ameerpet Store (HQ)</h3>
+                    <h3>Suchitra</h3>
                     <div class="store-details">
                         <div class="store-detail-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <p>Siri Towers, Plot No 402, Meghamala Apartment Road, beside Aster Prime Hospital, Ameerpet, Hyderabad, Telangana—500038</p>
+                            <p>Suchitra, Hyderabad, Telangana</p>
                         </div>
                         <div class="store-detail-item">
                             <i class="fas fa-phone-alt"></i>
-                            <p><a href="tel:+918182830905">+91 81828 30905</a></p>
-                        </div>
-                        <div class="store-detail-item">
-                            <i class="fas fa-clock"></i>
-                            <p>10:00 AM - 9:00 PM (Mon - Sat)<br>11:00 AM - 6:00 PM (Sun)</p>
+                            <p><a href="tel:+918121830905">+91 81218 30905</a></p>
                         </div>
                     </div>
                     <div class="store-actions">
-                        <a href="https://maps.google.com/?q=Siri+Towers+Ameerpet+Hyderabad" 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
+                        <a href="https://maps.google.com/?q=Suchitra+Hyderabad"
+                           target="_blank"
+                           rel="noopener noreferrer"
                            class="btn btn-outline btn-sm">
                             <i class="fas fa-directions"></i> Directions
                         </a>
-                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20want%20to%20visit%20your%20Ameerpet%20store." 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
+                        <a href="https://wa.me/918121830905?text=Hi%20Yash%20Computers%20Suchitra%2C%20I%20want%20to%20know%20about%20refurbished%20laptops."
+                           target="_blank"
+                           rel="noopener noreferrer"
                            class="btn btn-primary btn-sm">
                             <i class="fab fa-whatsapp"></i> Chat Store
                         </a>
                     </div>
                 </div>
             </div>
-            
-            <!-- Store 2: SR Nagar Store -->
+
+            <!-- Ameerpet -->
+            <div class="store-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="store-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80"
+                         alt="Yash Computers Ameerpet Store"
+                         class="store-img"
+                         width="380"
+                         height="220">
+                    <span class="store-status">Hyderabad</span>
+                </div>
+                <div class="store-info">
+                    <h3>Ameerpet</h3>
+                    <div class="store-details">
+                        <div class="store-detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Ameerpet, Hyderabad, Telangana</p>
+                        </div>
+                        <div class="store-detail-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <p><a href="tel:+918247788615">+91 82477 88615</a></p>
+                        </div>
+                    </div>
+                    <div class="store-actions">
+                        <a href="https://maps.google.com/?q=Ameerpet+Hyderabad"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn btn-outline btn-sm">
+                            <i class="fas fa-directions"></i> Directions
+                        </a>
+                        <a href="https://wa.me/918247788615?text=Hi%20Yash%20Computers%20Ameerpet%2C%20I%20want%20to%20know%20about%20refurbished%20laptops."
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn btn-primary btn-sm">
+                            <i class="fab fa-whatsapp"></i> Chat Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kukatpally -->
             <div class="store-card" data-aos="fade-up" data-aos-delay="200">
                 <div class="store-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80" 
-                         alt="Yash Computers SR Nagar Store" 
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80"
+                         alt="Yash Computers Kukatpally Store"
                          class="store-img"
-                         width="380" 
+                         width="380"
                          height="220">
-                    <span class="store-status" style="background-color: var(--secondary-color);">Active Store</span>
+                    <span class="store-status">Hyderabad</span>
                 </div>
                 <div class="store-info">
-                    <h3>SR Nagar Store</h3>
+                    <h3>Kukatpally</h3>
                     <div class="store-details">
                         <div class="store-detail-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <p>Shop No. 12, Ground Floor, Sai Complex, Near Metro Station, SR Nagar, Hyderabad, Telangana—500038</p>
+                            <p>Kukatpally, Hyderabad, Telangana</p>
                         </div>
                         <div class="store-detail-item">
                             <i class="fas fa-phone-alt"></i>
-                            <p><a href="tel:+918182830905">+91 81828 30905</a></p>
-                        </div>
-                        <div class="store-detail-item">
-                            <i class="fas fa-clock"></i>
-                            <p>10:00 AM - 8:30 PM (Mon - Sat)<br>Closed on Sunday</p>
+                            <p><a href="tel:+919963540040">+91 99635 40040</a></p>
                         </div>
                     </div>
                     <div class="store-actions">
-                        <a href="https://maps.google.com/?q=SR+Nagar+Hyderabad" 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
+                        <a href="https://maps.google.com/?q=Kukatpally+Hyderabad"
+                           target="_blank"
+                           rel="noopener noreferrer"
                            class="btn btn-outline btn-sm">
                             <i class="fas fa-directions"></i> Directions
                         </a>
-                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20want%20to%20visit%20your%20SR%20Nagar%20store." 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
+                        <a href="https://wa.me/919963540040?text=Hi%20Yash%20Computers%20Kukatpally%2C%20I%20want%20to%20know%20about%20refurbished%20laptops."
+                           target="_blank"
+                           rel="noopener noreferrer"
                            class="btn btn-primary btn-sm">
                             <i class="fab fa-whatsapp"></i> Chat Store
                         </a>
                     </div>
                 </div>
             </div>
-            
-            <!-- Store 3: Tirupati Store -->
-            <div class="store-card" data-aos="fade-up" data-aos-delay="300">
+
+            <!-- Vijayawada -->
+            <div class="store-card" data-aos="fade-up" data-aos-delay="250">
                 <div class="store-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80" 
-                         alt="Yash Computers Tirupati Store" 
+                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80"
+                         alt="Yash Computers Vijayawada Store"
                          class="store-img"
-                         width="380" 
+                         width="380"
                          height="220">
-                    <span class="store-status" style="background-color: var(--accent-color); color: var(--text-primary);">Opening Soon!</span>
+                    <span class="store-status" style="background-color: var(--secondary-color);">Andhra Pradesh</span>
                 </div>
                 <div class="store-info">
-                    <h3>Tirupati Store</h3>
+                    <h3>Vijayawada</h3>
                     <div class="store-details">
                         <div class="store-detail-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <p>Opposite RTC Bus Stand, Tirumala Bypass Road, Tirupati, Andhra Pradesh—517501</p>
+                            <p>Vijayawada, Andhra Pradesh</p>
                         </div>
                         <div class="store-detail-item">
                             <i class="fas fa-phone-alt"></i>
-                            <p><a href="tel:+918182830905">+91 81828 30905</a></p>
-                        </div>
-                        <div class="store-detail-item">
-                            <i class="fas fa-clock"></i>
-                            <p>Grand Opening: Dec 2025<br>Stay tuned for massive launch offers!</p>
+                            <p><a href="tel:+919989658327">+91 99896 58327</a></p>
                         </div>
                     </div>
-                    <div class="store-actions" style="grid-template-columns: 1fr;">
-                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20notify%20me%20when%20your%20Tirupati%20store%20opens." 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
-                           class="btn btn-accent btn-sm"
-                           style="width: 100%;">
-                            <i class="fas fa-bell"></i> Notify Me on Launch
+                    <div class="store-actions">
+                        <a href="https://maps.google.com/?q=Vijayawada+Andhra+Pradesh"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn btn-outline btn-sm">
+                            <i class="fas fa-directions"></i> Directions
+                        </a>
+                        <a href="https://wa.me/919989658327?text=Hi%20Yash%20Computers%20Vijayawada%2C%20I%20want%20to%20know%20about%20refurbished%20laptops."
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn btn-primary btn-sm">
+                            <i class="fab fa-whatsapp"></i> Chat Store
                         </a>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>
 
-<!-- Include Lead Form Section -->
 <?php include 'sections/lead-form.php'; ?>
-
-<?php
-// Include Footer
-include 'includes/footer.php';
-?>
+<?php include 'includes/footer.php'; ?>

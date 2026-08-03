@@ -64,18 +64,18 @@ include 'includes/header.php';
                     <div class="contact-card-details">
                         <h4>Email Support</h4>
                         <p>For corporate and bulk inquiries:</p>
-                        <p><a href="mailto:yashcomputershyd@gmail.com" style="font-weight: 700; color: var(--secondary-color);">yashcomputershyd@gmail.com</a></p>
+                        <p><a href="mailto:test@gmail.com" style="font-weight: 700; color: var(--secondary-color);">test@gmail.com</a></p>
                     </div>
                 </div>
                 
-                <!-- Card 4: Head Office -->
+                <!-- Card 4: Store Locations -->
                 <div class="contact-card" style="border-left-color: var(--accent-color);">
                     <div class="contact-card-icon" style="background-color: rgba(245, 158, 11, 0.08);">
                         <i class="fas fa-map-marker-alt" style="color: var(--accent-color);"></i>
                     </div>
                     <div class="contact-card-details">
-                        <h4>Head Office</h4>
-                        <p>Siri Towers, Plot No 402, Meghamala Apartment Road, beside Aster Prime Hospital, Ameerpet, Hyderabad, Telangana—500038</p>
+                        <h4>Our Stores</h4>
+                        <p>Suchitra · Ameerpet · Kukatpally (Hyderabad) &amp; Vijayawada — <a href="stores.php" style="color: var(--primary-color); font-weight: 700;">View all stores</a></p>
                     </div>
                 </div>
             </div>
