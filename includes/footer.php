@@ -11,8 +11,8 @@
                 <!-- Column 1: Brand & About -->
                 <div class="footer-col footer-about">
                     <a href="index.php" class="logo" style="margin-bottom: 1.5rem;">
-                        <i class="fas fa-laptop-code" style="color: var(--secondary-color);"></i>
-                        <span style="color: var(--text-light);">Yash<span style="color: var(--secondary-color);">Computers</span></span>
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Yash<span>Computers</span></span>
                     </a>
                     <p>Yash Computers is India's trusted destination for high-quality certified refurbished laptops and professional repair services. Setting the gold standard in refurbishment since 2009.</p>
                     <div class="social-links">

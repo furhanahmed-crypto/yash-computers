@@ -22,6 +22,29 @@ if (!isset($active_page)) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     
+    <!-- Apply theme before paint (URL ?theme= overrides localStorage) -->
+    <script>
+        (function () {
+            try {
+                var params = new URLSearchParams(window.location.search);
+                var fromUrl = (params.get('theme') || '').toLowerCase();
+                var theme = (fromUrl === 'dark' || fromUrl === 'light')
+                    ? fromUrl
+                    : (localStorage.getItem('yc-theme') || 'light');
+
+                if (theme === 'dark') {
+                    document.documentElement.classList.add('dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                }
+
+                if (fromUrl === 'dark' || fromUrl === 'light') {
+                    localStorage.setItem('yc-theme', theme);
+                }
+            } catch (e) {}
+        })();
+    </script>
+    
     <!-- SEO Meta Tags -->
     <title><?php echo htmlspecialchars($page_title); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
@@ -72,16 +95,21 @@ if (!isset($active_page)) {
                     <a href="contact.php" class="nav-link <?php echo ($active_page === 'contact') ? 'active' : ''; ?>">Contact Us</a>
                 </nav>
                 
-                <!-- Desktop CTA -->
-                <div class="nav-cta">
-                    <a href="tel:+918182830905" class="btn btn-outline btn-sm">
-                        <i class="fas fa-phone-alt"></i> +91 81828 30905
-                    </a>
-                </div>
-                
-                <!-- Mobile Menu Toggle -->
-                <div class="menu-toggle" id="menuToggle">
-                    <i class="fas fa-bars"></i>
+                <!-- Theme Toggle + Desktop CTA -->
+                <div class="nav-actions">
+                    <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+                        <i class="fas fa-moon icon-moon" aria-hidden="true"></i>
+                        <i class="fas fa-sun icon-sun" aria-hidden="true"></i>
+                    </button>
+                    <div class="nav-cta">
+                        <a href="tel:+918182830905" class="btn btn-outline btn-sm">
+                            <i class="fas fa-phone-alt"></i> +91 81828 30905
+                        </a>
+                    </div>
+                    <!-- Mobile Menu Toggle -->
+                    <div class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
                 </div>
             </div>
         </div>

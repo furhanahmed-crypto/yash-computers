@@ -5,6 +5,55 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Theme Toggle (light default, .dark on <html>)
+    // Priority: ?theme=dark|light URL param → localStorage → light
+    const root = document.documentElement;
+    const themeToggle = document.getElementById('themeToggle');
+
+    const getThemeFromUrl = () => {
+        const theme = (new URLSearchParams(window.location.search).get('theme') || '').toLowerCase();
+        return theme === 'dark' || theme === 'light' ? theme : null;
+    };
+
+    const setTheme = (theme, { persist = true, syncUrl = false } = {}) => {
+        const isDark = theme === 'dark';
+        root.classList.toggle('dark', isDark);
+
+        if (persist) {
+            try {
+                localStorage.setItem('yc-theme', isDark ? 'dark' : 'light');
+            } catch (e) {}
+        }
+
+        if (syncUrl) {
+            const url = new URL(window.location.href);
+            url.searchParams.set('theme', isDark ? 'dark' : 'light');
+            window.history.replaceState({}, '', url);
+        }
+
+        if (themeToggle) {
+            themeToggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+            themeToggle.setAttribute('title', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+        }
+    };
+
+    // On load: URL param wins (like reading search params in useEffect)
+    const urlTheme = getThemeFromUrl();
+    let storedTheme = 'light';
+    try {
+        storedTheme = localStorage.getItem('yc-theme') || 'light';
+    } catch (e) {}
+
+    setTheme(urlTheme || storedTheme, { persist: true });
+
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const next = root.classList.contains('dark') ? 'light' : 'dark';
+            // Keep ?theme= in sync only if it was already present
+            setTheme(next, { persist: true, syncUrl: Boolean(getThemeFromUrl()) });
+        });
+    }
+
     // Initialize Animate On Scroll (AOS)
     if (typeof AOS !== 'undefined') {
         AOS.init({
