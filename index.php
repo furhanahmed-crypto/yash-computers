@@ -10,6 +10,7 @@ $active_page = "home";
 include 'includes/header.php';
 include 'sections/hero.php';
 include 'sections/stats.php';
+include 'sections/categories-tabs.php';
 include 'sections/why-choose-us.php';
 include 'sections/services.php';
 include 'sections/testimonials.php';
