@@ -17,7 +17,7 @@
                     <a href="#lead-form-section" class="btn btn-primary btn-lg">
                         <i class="fas fa-paper-plane"></i> Get Free Consultation
                     </a>
-                    <a href="tel:+918182830905" class="btn btn-outline btn-lg">
+                    <a href="tel:+918121830905" class="btn btn-outline btn-lg">
                         <i class="fas fa-phone-alt"></i> Call Executive
                     </a>
                 </div>

@@ -7,7 +7,7 @@
 
 // Define page-specific SEO variables
 $page_title = "Contact Us | Yash Computers | Best Refurbished Laptops Hyderabad";
-$page_description = "Get in touch with Yash Computers. Call or WhatsApp +91 81828 30905, visit our stores in Hyderabad, or fill out our contact form for an instant quote.";
+$page_description = "Get in touch with Yash Computers. Call or WhatsApp +91 81218 30905, visit our stores in Hyderabad, or fill out our contact form for an instant quote.";
 $active_page = "contact";
 
 // Include Header
@@ -54,10 +54,10 @@ include 'includes/header.php';
                     <div class="contact-card-details">
                         <h4>WhatsApp Chat</h4>
                         <p>Chat with us for catalog & pictures:</p>
-                        <p><a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20want%20to%20see%20the%20latest%20laptop%20catalog." 
+                        <p><a href="https://wa.me/918121830905?text=Hi%20Yash%20Computers%2C%20I%20want%20to%20see%20the%20latest%20laptop%20catalog." 
                               target="_blank" 
                               rel="noopener noreferrer" 
-                              style="font-weight: 700; color: var(--whatsapp);">+91 81828 30905</a></p>
+                              style="font-weight: 700; color: var(--whatsapp);">+91 81218 30905</a></p>
                     </div>
                 </div>
                 

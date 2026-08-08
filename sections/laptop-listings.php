@@ -152,11 +152,11 @@ $laptop_listings = [
                     </ul>
 
                     <div class="laptop-card-actions">
-                        <a href="tel:+918182830905" class="btn btn-primary laptop-card-cta">
+                        <a href="tel:+918121830905" class="btn btn-primary laptop-card-cta">
                             <i class="fas fa-phone-alt" aria-hidden="true"></i> Call &amp; Book
                         </a>
                         <a
-                            href="https://wa.me/918182830905?text=<?php echo $wa_text; ?>"
+                            href="https://wa.me/918121830905?text=<?php echo $wa_text; ?>"
                             class="btn btn-outline laptop-card-wa"
                             target="_blank"
                             rel="noopener noreferrer"

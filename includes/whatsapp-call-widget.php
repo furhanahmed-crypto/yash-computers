@@ -7,13 +7,13 @@
 <!-- Floating Lead Action Buttons -->
 <div class="floating-actions">
     <!-- Direct Call Button -->
-    <a href="tel:+918182830905" class="floating-btn phone" aria-label="Call Yash Computers">
+    <a href="tel:+918121830905" class="floating-btn phone" aria-label="Call Yash Computers">
         <i class="fas fa-phone-alt"></i>
         <span class="tooltip-text">Call Us Now</span>
     </a>
     
     <!-- WhatsApp Chat Button -->
-    <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20buying%20a%20refurbished%20laptop.%20Please%20share%20the%20latest%20catalog." 
+    <a href="https://wa.me/918121830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20buying%20a%20refurbished%20laptop.%20Please%20share%20the%20latest%20catalog." 
        target="_blank" 
        rel="noopener noreferrer" 
        class="floating-btn whatsapp" 

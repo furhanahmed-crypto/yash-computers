@@ -37,7 +37,7 @@ include 'includes/header.php';
                     <a href="#lead-form-section" class="btn btn-primary btn-lg">
                         <i class="fab fa-whatsapp"></i> Get Gaming Catalog
                     </a>
-                    <a href="tel:+918182830905" class="btn btn-outline btn-lg">
+                    <a href="tel:+918121830905" class="btn btn-outline btn-lg">
                         <i class="fas fa-phone-alt"></i> Call Executive
                     </a>
                 </div>
@@ -116,7 +116,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹29,999 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹75,000</span></span>
-                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Dell%20Precision%205810%20Workstation." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918121830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Dell%20Precision%205810%20Workstation." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹34,999 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹85,000</span></span>
-                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Dell%20G15%20Gaming%20Laptop." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918121830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Dell%20G15%20Gaming%20Laptop." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹38,999 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹95,000</span></span>
-                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20HP%20ZBook%2015%20G5." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918121830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20HP%20ZBook%2015%20G5." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>

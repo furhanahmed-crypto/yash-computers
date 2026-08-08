@@ -36,7 +36,7 @@ include 'includes/header.php';
                     <a href="#lead-form-section" class="btn btn-primary btn-lg">
                         <i class="fab fa-whatsapp"></i> Get Developer Catalog
                     </a>
-                    <a href="tel:+918182830905" class="btn btn-outline btn-lg">
+                    <a href="tel:+918121830905" class="btn btn-outline btn-lg">
                         <i class="fas fa-phone-alt"></i> Call Executive
                     </a>
                 </div>
@@ -115,7 +115,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹19,999 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹45,000</span></span>
-                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Lenovo%20ThinkPad%20T490." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918121830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Lenovo%20ThinkPad%20T490." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹17,999 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹38,000</span></span>
-                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Dell%20Latitude%205490." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918121830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20Dell%20Latitude%205490." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>
@@ -159,7 +159,7 @@ include 'includes/header.php';
                     </div>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <span style="font-size: 1.25rem; font-weight: 800; color: var(--primary-color);">₹21,499 <span style="font-size: 0.8125rem; font-weight: 500; color: var(--text-muted); text-decoration: line-through;">₹48,000</span></span>
-                        <a href="https://wa.me/918182830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20HP%20EliteBook%20840%20G6." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
+                        <a href="https://wa.me/918121830905?text=Hi%20Yash%20Computers%2C%20I%20am%20interested%20in%20HP%20EliteBook%20840%20G6." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Buy</a>
                     </div>
                 </div>
             </div>

@@ -102,8 +102,8 @@ if (!isset($active_page)) {
                         <i class="fas fa-sun icon-sun" aria-hidden="true"></i>
                     </button>
                     <div class="nav-cta">
-                        <a href="tel:+918182830905" class="btn btn-outline btn-sm">
-                            <i class="fas fa-phone-alt"></i> +91 81828 30905
+                        <a href="tel:+918121830905" class="btn btn-outline btn-sm">
+                            <i class="fas fa-phone-alt"></i> +91 81218 30905
                         </a>
                     </div>
                     <!-- Mobile Menu Toggle -->

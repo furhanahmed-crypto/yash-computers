@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Construct WhatsApp message if user wants to instantly chat
                 const whatsappText = encodeURIComponent(`Hi Yash Computers, I just submitted an inquiry on your website.\n\nName: ${name}\nPhone: ${phone}\nRequirement: ${requirement}\nMessage: ${message}`);
-                const whatsappUrl = `https://wa.me/918182830905?text=${whatsappText}`;
+                const whatsappUrl = `https://wa.me/918121830905?text=${whatsappText}`;
                 
                 // Ask user if they want to chat on WhatsApp immediately
                 setTimeout(() => {
