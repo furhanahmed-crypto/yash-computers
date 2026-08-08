@@ -9,7 +9,7 @@ if (!isset($page_title)) {
     $page_title = "Yash Computers | Best Refurbished Laptops in Hyderabad";
 }
 if (!isset($page_description)) {
-    $page_description = "Buy high-quality certified refurbished laptops in Hyderabad starting from ₹3,999. Dell, HP, Lenovo, and Apple MacBooks with 1-year warranty and 50-step quality checks.";
+    $page_description = "Buy high-quality certified refurbished laptops in Hyderabad starting from ₹6,500. Dell, HP, Lenovo, and Apple MacBooks with 1-year warranty and 50-step quality checks.";
 }
 if (!isset($active_page)) {
     $active_page = "home";
@@ -82,7 +82,7 @@ if (!isset($active_page)) {
             <div class="nav-container">
                 <!-- Logo -->
                 <a href="index.php" class="logo">
-                    <i class="fas fa-laptop-code"></i>
+                    <img src="assets/images/logo-nav.png" alt="Yash Computers" class="logo-img" width="40" height="40">
                     <span>Yash<span>Computers</span></span>
                 </a>
                 

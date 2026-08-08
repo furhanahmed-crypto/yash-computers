@@ -36,8 +36,13 @@ include 'includes/header.php';
                     </div>
                     <div class="contact-card-details">
                         <h4>Call Us Directly</h4>
-                        <p>Speak with our sales executive instantly:</p>
-                        <p><a href="tel:+918182830905" style="font-weight: 700; color: var(--primary-color);">+91 81828 30905</a></p>
+                        <p>Speak with our branch teams:</p>
+                        <p style="line-height: 1.7;">
+                            <strong>Suchitra:</strong> <a href="tel:+918121830905" style="font-weight: 700; color: var(--primary-color);">8121830905</a><br>
+                            <strong>Kukatpally:</strong> <a href="tel:+919963540040" style="font-weight: 700; color: var(--primary-color);">9963540040</a><br>
+                            <strong>Ameerpet:</strong> <a href="tel:+918247788615" style="font-weight: 700; color: var(--primary-color);">8247788615</a><br>
+                            <strong>Vijayawada:</strong> <a href="tel:+919989658327" style="font-weight: 700; color: var(--primary-color);">9989658327</a>
+                        </p>
                     </div>
                 </div>
                 
@@ -64,7 +69,7 @@ include 'includes/header.php';
                     <div class="contact-card-details">
                         <h4>Email Support</h4>
                         <p>For corporate and bulk inquiries:</p>
-                        <p><a href="mailto:test@gmail.com" style="font-weight: 700; color: var(--secondary-color);">test@gmail.com</a></p>
+                        <p><a href="mailto:Yashcomputersofficialid@gmail.com" style="font-weight: 700; color: var(--secondary-color);">Yashcomputersofficialid@gmail.com</a></p>
                     </div>
                 </div>
                 

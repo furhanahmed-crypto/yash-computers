@@ -9,7 +9,7 @@
         <!-- Section Header -->
         <div class="section-header" data-aos="fade-up">
             <span class="badge badge-secondary">Customer Reviews</span>
-            <h2>What Our 7,000+ Customers Say</h2>
+            <h2>What Our 15,000+ Customers Say</h2>
             <p>We are proud to maintain a 4.8/5-star rating on Google. Read verified reviews from students, software developers, and business owners who trust Yash Computers.</p>
         </div>
         

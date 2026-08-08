@@ -88,8 +88,8 @@
                     </div>
 
                     <div class="category-image-wrapper" data-aos="fade-left">
-                        <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=800&q=80"
-                             alt="Developer coding on refurbished laptop"
+                        <img src="assets/images/laptops/yuva-developer.webp"
+                             alt="Laptops for Coding &amp; Developers"
                              class="category-image"
                              width="550"
                              height="380">
@@ -153,12 +153,12 @@
                     </div>
 
                     <div class="category-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=800&q=80"
-                             alt="Student using refurbished laptop"
+                        <img src="assets/images/laptops/yuva-student.jpg"
+                             alt="Student Laptops"
                              class="category-image"
                              width="550"
                              height="380">
-                        <span class="category-tag">Starts From ₹10,000</span>
+                        <span class="category-tag">Starts From ₹6,500</span>
                     </div>
                 </div>
             </div>
@@ -218,8 +218,8 @@
                     </div>
 
                     <div class="category-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
-                             alt="Refurbished MacBook Pro"
+                        <img src="assets/images/laptops/yuva-apple.jpg"
+                             alt="Apple Devices — MacBooks &amp; iMacs"
                              class="category-image"
                              width="550"
                              height="380">
@@ -283,8 +283,8 @@
                     </div>
 
                     <div class="category-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80"
-                             alt="Genuine Apple accessories"
+                        <img src="assets/images/laptops/yuva-premium.jpg"
+                             alt="Apple Accessories"
                              class="category-image"
                              width="550"
                              height="380">
@@ -348,8 +348,8 @@
                     </div>
 
                     <div class="category-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1603481588273-2f908a9a7a1b?auto=format&fit=crop&w=800&q=80"
-                             alt="Gaming and workstation laptop"
+                        <img src="assets/images/laptops/yuva-gaming.jpg"
+                             alt="Gaming &amp; Workstation Laptops"
                              class="category-image"
                              width="550"
                              height="380">

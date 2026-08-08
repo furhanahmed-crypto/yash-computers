@@ -30,7 +30,7 @@
             <div class="why-content" data-aos="fade-left">
                 <span class="badge badge-accent">Why Choose Yash Computers</span>
                 <h2>Setting the Gold Standard in Refurbishment</h2>
-                <p>We believe high-end computing should be accessible to everyone. Since 2009, we have built a legacy of trust by delivering premium laptops that perform like new, at a fraction of the cost.</p>
+                <p>We believe high-end computing should be accessible to everyone. Since 2013, we have built a legacy of trust by delivering premium laptops that perform like new, at a fraction of the cost.</p>
                 
                 <div class="why-list">
                     <!-- Item 1 -->

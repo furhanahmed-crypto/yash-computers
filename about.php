@@ -5,7 +5,7 @@
  */
 
 // Define page-specific SEO variables
-$page_title = "About Us | Yash Computers | Legacy of Trust Since 2009";
+$page_title = "About Us | Yash Computers | Legacy of Trust Since 2013";
 $page_description = "Learn about Yash Computers, Hyderabad's leading refurbished laptop store. Discover our mission, vision, and our industry-leading 50-step quality audit process.";
 $active_page = "about";
 
@@ -17,7 +17,7 @@ include 'includes/header.php';
 <section class="about-hero">
     <div class="container" data-aos="zoom-in">
         <span class="badge badge-primary">Our Story</span>
-        <h1>Crafting Excellence Since 2009</h1>
+        <h1>Crafting Excellence Since 2013</h1>
         <p>Yash Computers is Hyderabad's largest and most trusted destination for certified refurbished laptops and professional IT services.</p>
     </div>
 </section>
@@ -30,9 +30,9 @@ include 'includes/header.php';
             <div class="about-story-content" data-aos="fade-right">
                 <span class="badge badge-secondary">A Legacy of Trust</span>
                 <h2>How We Redefined Refurbishment</h2>
-                <p>Founded in 2009, Yash Computers started with a simple but powerful idea: high-end computing power shouldn't be a luxury. We noticed that students, freelancers, and small businesses were forced to buy low-quality new laptops or take huge risks buying second-hand devices with hidden defects.</p>
+                <p>Founded in 2013, Yash Computers started with a simple but powerful idea: high-end computing power shouldn't be a luxury. We noticed that students, freelancers, and small businesses were forced to buy low-quality new laptops or take huge risks buying second-hand devices with hidden defects.</p>
                 <p>We set out to create a third option — **Certified Refurbished Laptops**. By combining rigorous engineering standards with top-grade corporate-imported laptops, we created a way for customers to save up to 60% while getting a machine that performs exactly like new.</p>
-                <p>Today, with over 10,000+ laptops sold and a 4.8-star Google rating, we continue to serve Hyderabad with unmatched quality, transparent pricing, and industry-leading after-sales support.</p>
+                <p>Today, with over 35,000+ laptops sold and a 4.8-star Google rating, we continue to serve Hyderabad with unmatched quality, transparent pricing, and industry-leading after-sales support.</p>
             </div>
             
             <!-- Right: Image -->

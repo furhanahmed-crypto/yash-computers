@@ -10,4 +10,5 @@ $active_page = "our-laptops";
 
 include 'includes/header.php';
 include 'sections/laptop-range.php';
+include 'sections/laptop-listings.php';
 include 'includes/footer.php';

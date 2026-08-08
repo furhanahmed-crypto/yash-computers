@@ -11,10 +11,10 @@
                 <!-- Column 1: Brand & About -->
                 <div class="footer-col footer-about">
                     <a href="index.php" class="logo" style="margin-bottom: 1.5rem;">
-                        <i class="fas fa-laptop-code"></i>
+                        <img src="assets/images/logo-nav.png" alt="Yash Computers" class="logo-img" width="40" height="40">
                         <span>Yash<span>Computers</span></span>
                     </a>
-                    <p>Yash Computers is India's trusted destination for high-quality certified refurbished laptops and professional repair services. Setting the gold standard in refurbishment since 2009.</p>
+                    <p>Yash Computers is India's trusted destination for high-quality certified refurbished laptops and professional repair services. Setting the gold standard in refurbishment since 2013.</p>
                     <div class="social-links">
                         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
@@ -61,15 +61,18 @@
                         <div class="footer-contact-item">
                             <i class="fas fa-phone-alt"></i>
                             <span>
-                                <strong>Phone:</strong>
-                                <a href="tel:+918182830905" style="color: var(--text-muted);">+91 81828 30905</a>
+                                <strong>Branch phones:</strong><br>
+                                Suchitra: <a href="tel:+918121830905" style="color: var(--text-muted);">8121830905</a><br>
+                                Kukatpally: <a href="tel:+919963540040" style="color: var(--text-muted);">9963540040</a><br>
+                                Ameerpet: <a href="tel:+918247788615" style="color: var(--text-muted);">8247788615</a><br>
+                                Vijayawada: <a href="tel:+919989658327" style="color: var(--text-muted);">9989658327</a>
                             </span>
                         </div>
                         <div class="footer-contact-item">
                             <i class="fas fa-envelope"></i>
                             <span>
                                 <strong>Email:</strong>
-                                <a href="mailto:test@gmail.com" style="color: var(--text-muted);">test@gmail.com</a>
+                                <a href="mailto:Yashcomputersofficialid@gmail.com" style="color: var(--text-muted);">Yashcomputersofficialid@gmail.com</a>
                             </span>
                         </div>
                     </div>

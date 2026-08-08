@@ -65,7 +65,7 @@
                 <div class="hero-badge-floating b2">
                     <i class="fas fa-tags"></i>
                     <div class="badge-text">
-                        Starts From ₹3,999
+                        Starts From ₹6,500
                         <span>Unbeatable Prices</span>
                     </div>
                 </div>
