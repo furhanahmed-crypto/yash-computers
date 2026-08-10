@@ -13,6 +13,7 @@ include 'sections/stats.php';
 include 'sections/laptop-range.php';
 include 'sections/laptop-listings.php';
 include 'sections/why-choose-us.php';
+include 'sections/founder-message.php';
 include 'sections/services.php';
 include 'sections/testimonials.php';
 include 'sections/lead-form.php';
