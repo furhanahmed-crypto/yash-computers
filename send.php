@@ -9,6 +9,15 @@ require 'php-mailer/Exception.php';
 
 header('Content-Type: application/json');
 
+$mailConfigPath = __DIR__ . '/config/mail.php';
+if (!file_exists($mailConfigPath)) {
+    http_response_code(500);
+    echo json_encode(['success' => false, 'message' => 'Mail configuration is missing.']);
+    exit;
+}
+
+$mailConfig = require $mailConfigPath;
+
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
     echo json_encode(['success' => false, 'message' => 'Method not allowed.']);
@@ -30,24 +39,22 @@ if (empty($name) || empty($phone) || empty($requirement)) {
 $mail = new PHPMailer(true);
 
 try {
-    // Server settings
     $mail->isSMTP();
     $mail->SMTPAuth   = true;
-    $mail->Host       = 'smtp.gmail.com';
-    $mail->Port       = 587;
+    $mail->Host       = $mailConfig['host'];
+    $mail->Port       = $mailConfig['port'];
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Username   = 'yashcomputer971@gmail.com';
-    $mail->Password   = 'frun xkag sgzt yoxw'; // Gmail App Password
+    $mail->Username   = $mailConfig['username'];
+    $mail->Password   = $mailConfig['password'];
 
-    // Recipients
-    $mail->setFrom('yashcomputer971@gmail.com', 'Yash Computers Website');
-    $mail->addAddress('f4rh4n6710@gmail.com');
-    $mail->addAddress('yashcomputer971@gmail.com');
+    $mail->setFrom($mailConfig['from_email'], $mailConfig['from_name']);
+    foreach ($mailConfig['to'] as $recipient) {
+        $mail->addAddress($recipient);
+    }
 
-    // Content
     $mail->isHTML(true);
     $mail->Subject = 'New Laptop Enquiry: ' . $requirement;
-    
+
     $body  = '<h2>New Laptop Enquiry Form Submission</h2>';
     $body .= '<p>You have received a new enquiry from the Yash Computers website contact form.</p>';
     $body .= '<table border="0" cellpadding="6" cellspacing="0" style="border-collapse: collapse; font-family: sans-serif; font-size: 14px;">';
