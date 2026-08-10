@@ -45,7 +45,7 @@
                 <h3>Get a Free Quote & Catalog</h3>
                 <p>Fill out the form below to receive our latest inventory catalog and pricing instantly.</p>
                 
-                <form class="lead-form" method="POST" action="">
+                <form class="lead-form" method="POST" action="send.php">
                     <!-- Name -->
                     <div class="form-group">
                         <label for="lead-name" class="form-label">Full Name *</label>

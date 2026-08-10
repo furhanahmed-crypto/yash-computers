@@ -203,21 +203,95 @@ document.addEventListener('DOMContentLoaded', () => {
             const requirement = formData.get('requirement') || '';
             const message = formData.get('message') || '';
 
-            // Simulate API call
-            setTimeout(() => {
-                // Hide loading state and show success message
+            // Send actual email via send.php
+            fetch('send.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Hide loading state and show success message
+                    if (submitBtn) {
+                        submitBtn.innerHTML = '<i class="fas fa-check"></i> Success!';
+                        submitBtn.style.backgroundColor = 'var(--success)';
+                    }
+
+                    // Create a beautiful floating notification or inline success banner
+                    const successBanner = document.createElement('div');
+                    successBanner.className = 'form-success-banner';
+                    successBanner.style.cssText = `
+                        background-color: rgba(16, 185, 129, 0.1);
+                        border: 1px solid var(--success);
+                        color: #065f46;
+                        padding: 1.25rem;
+                        border-radius: var(--radius-md);
+                        margin-top: 1.5rem;
+                        font-weight: 600;
+                        text-align: center;
+                        animation: fadeIn 0.5s ease;
+                    `;
+                    successBanner.innerHTML = `
+                        <i class="fas fa-check-circle" style="color: var(--success); font-size: 1.5rem; margin-bottom: 0.5rem; display: block;"></i>
+                        Thank you, ${name}! Your inquiry has been received.<br>
+                        <span style="font-weight: 500; font-size: 0.875rem; color: var(--text-secondary);">
+                            Our team will contact you soon.
+                        </span>
+                    `;
+
+                    // Remove existing success banner if any
+                    const existingBanner = form.querySelector('.form-success-banner');
+                    if (existingBanner) {
+                        existingBanner.remove();
+                    }
+
+                    const existingErrorBanner = form.querySelector('.form-error-banner');
+                    if (existingErrorBanner) {
+                        existingErrorBanner.remove();
+                    }
+
+                    form.appendChild(successBanner);
+
+                    // Reset form fields
+                    form.reset();
+
+                    // Reset button after 4 seconds
+                    setTimeout(() => {
+                        if (submitBtn) {
+                            submitBtn.disabled = false;
+                            submitBtn.innerHTML = originalBtnText;
+                            submitBtn.style.backgroundColor = '';
+                        }
+                    }, 4000);
+
+                    // Construct WhatsApp message if user wants to instantly chat
+                    const whatsappText = encodeURIComponent(`Hi Yash Computers, I just submitted an inquiry on your website.\n\nName: ${name}\nPhone: ${phone}\nRequirement: ${requirement}\nMessage: ${message}`);
+                    const whatsappUrl = `https://wa.me/918121830905?text=${whatsappText}`;
+                    
+                    // Ask user if they want to chat on WhatsApp immediately
+                    setTimeout(() => {
+                        if (confirm("Would you like to connect with our sales executive instantly on WhatsApp for a faster response?")) {
+                            window.open(whatsappUrl, '_blank');
+                        }
+                    }, 1000);
+                } else {
+                    throw new Error(data.message || 'Something went wrong.');
+                }
+            })
+            .catch(error => {
                 if (submitBtn) {
-                    submitBtn.innerHTML = '<i class="fas fa-check"></i> Success!';
-                    submitBtn.style.backgroundColor = 'var(--success)';
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = originalBtnText;
+                    submitBtn.style.backgroundColor = '';
                 }
 
-                // Create a beautiful floating notification or inline success banner
-                const successBanner = document.createElement('div');
-                successBanner.className = 'form-success-banner';
-                successBanner.style.cssText = `
-                    background-color: rgba(16, 185, 129, 0.1);
-                    border: 1px solid var(--success);
-                    color: #065f46;
+                // Create a beautiful error banner
+                const errorBanner = document.createElement('div');
+                errorBanner.className = 'form-error-banner';
+                errorBanner.style.cssText = `
+                    background-color: rgba(239, 68, 68, 0.1);
+                    border: 1px solid var(--danger, #ef4444);
+                    color: #991b1b;
                     padding: 1.25rem;
                     border-radius: var(--radius-md);
                     margin-top: 1.5rem;
@@ -225,46 +299,26 @@ document.addEventListener('DOMContentLoaded', () => {
                     text-align: center;
                     animation: fadeIn 0.5s ease;
                 `;
-                successBanner.innerHTML = `
-                    <i class="fas fa-check-circle" style="color: var(--success); font-size: 1.5rem; margin-bottom: 0.5rem; display: block;"></i>
-                    Thank you, ${name}! Your inquiry has been received.<br>
+                errorBanner.innerHTML = `
+                    <i class="fas fa-exclamation-circle" style="color: var(--danger, #ef4444); font-size: 1.5rem; margin-bottom: 0.5rem; display: block;"></i>
+                    Submission Failed<br>
                     <span style="font-weight: 500; font-size: 0.875rem; color: var(--text-secondary);">
-                        Our team will contact you within 30 minutes.
+                        ${error.message}
                     </span>
                 `;
 
-                // Remove existing success banner if any
                 const existingBanner = form.querySelector('.form-success-banner');
                 if (existingBanner) {
                     existingBanner.remove();
                 }
 
-                form.appendChild(successBanner);
+                const existingErrorBanner = form.querySelector('.form-error-banner');
+                if (existingErrorBanner) {
+                    existingErrorBanner.remove();
+                }
 
-                // Reset form fields
-                form.reset();
-
-                // Reset button after 3 seconds
-                setTimeout(() => {
-                    if (submitBtn) {
-                        submitBtn.disabled = false;
-                        submitBtn.innerHTML = originalBtnText;
-                        submitBtn.style.backgroundColor = '';
-                    }
-                }, 4000);
-
-                // Construct WhatsApp message if user wants to instantly chat
-                const whatsappText = encodeURIComponent(`Hi Yash Computers, I just submitted an inquiry on your website.\n\nName: ${name}\nPhone: ${phone}\nRequirement: ${requirement}\nMessage: ${message}`);
-                const whatsappUrl = `https://wa.me/918121830905?text=${whatsappText}`;
-                
-                // Ask user if they want to chat on WhatsApp immediately
-                setTimeout(() => {
-                    if (confirm("Would you like to connect with our sales executive instantly on WhatsApp for a faster response?")) {
-                        window.open(whatsappUrl, '_blank');
-                    }
-                }, 1000);
-
-            }, 1500);
+                form.appendChild(errorBanner);
+            });
         });
     });
 });

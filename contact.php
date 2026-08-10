@@ -88,9 +88,9 @@ include 'includes/header.php';
             <!-- Right Side: Interactive Form -->
             <div class="contact-form-wrapper" id="lead-form-section" data-aos="fade-left">
                 <h2>Send Us a Message</h2>
-                <p>Fill out the form below, and our team will get back to you with personalized laptop recommendations and pricing within 30 minutes.</p>
+                <p>Fill out the form below, and our team will get back to you with personalized laptop recommendations and pricing soon.</p>
                 
-                <form class="contact-form" method="POST" action="">
+                <form class="contact-form" method="POST" action="send.php">
                     <!-- Name -->
                     <div class="form-group">
                         <label for="contact-name" class="form-label">Full Name *</label>
