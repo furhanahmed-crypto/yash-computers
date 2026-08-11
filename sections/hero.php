@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Yash Computers - Hero Section
  * Renders the hero banner with engaging copy, CTAs, and trust badges.
@@ -12,7 +13,7 @@
                 <span class="badge badge-primary">Premium Refurbished Laptops</span>
                 <h1>Get Premium Laptops <br><span class="text-gradient">At 60% Off</span> Retail Price</h1>
                 <p>Don't pay full price for computing power. Yash Computers offers certified, high-performance refurbished laptops from Dell, HP, Lenovo, and Apple. Professionally audited with a 1-year warranty.</p>
-                
+
                 <div class="hero-actions">
                     <a href="#lead-form-section" class="btn btn-primary btn-lg">
                         <i class="fas fa-paper-plane"></i> Get Free Consultation
@@ -21,7 +22,7 @@
                         <i class="fas fa-phone-alt"></i> Call Executive
                     </a>
                 </div>
-                
+
                 <!-- Trust Badges -->
                 <div class="hero-trust">
                     <div class="trust-item">
@@ -47,11 +48,11 @@
                     </div>
                 </div>
             </div>
-            
+
             <!-- Right Side: Interactive Laptop Visual -->
             <div class="hero-image-wrapper" data-aos="fade-left">
                 <div class="hero-image-bg"></div>
-                
+
                 <!-- Floating Badge 1 -->
                 <div class="hero-badge-floating b1">
                     <i class="fas fa-star"></i>
@@ -60,7 +61,7 @@
                         <span>Google Reviews</span>
                     </div>
                 </div>
-                
+
                 <!-- Floating Badge 2 -->
                 <div class="hero-badge-floating b2">
                     <i class="fas fa-tags"></i>
@@ -69,13 +70,13 @@
                         <span>Unbeatable Prices</span>
                     </div>
                 </div>
-                
+
                 <!-- Hero Laptop Image -->
-                <img src="assets/images/laptops/hero-image.jpg" 
-                     alt="Premium Refurbished Laptops Yash Computers" 
-                     class="hero-image" 
-                     width="600" 
-                     height="450">
+                <img src="assets/images/laptops/hero-image.png"
+                    alt="Premium Refurbished Laptops Yash Computers"
+                    class="hero-image"
+                    width="600"
+                    height="450">
             </div>
         </div>
     </div>
