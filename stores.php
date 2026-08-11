@@ -26,7 +26,7 @@ include 'includes/header.php';
             <!-- Suchitra -->
             <div class="store-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="store-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80"
+                    <img src="assets/images/laptops/suchitra-store.png"
                          alt="Yash Computers Suchitra Store"
                          class="store-img"
                          width="380"
@@ -65,7 +65,7 @@ include 'includes/header.php';
             <!-- Ameerpet -->
             <div class="store-card" data-aos="fade-up" data-aos-delay="150">
                 <div class="store-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80"
+                    <img src="assets/images/laptops/ameerpet-store.jpg"
                          alt="Yash Computers Ameerpet Store"
                          class="store-img"
                          width="380"
@@ -104,7 +104,7 @@ include 'includes/header.php';
             <!-- Kukatpally -->
             <div class="store-card" data-aos="fade-up" data-aos-delay="200">
                 <div class="store-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80"
+                    <img src="assets/images/laptops/kukatpally-store.jpeg"
                          alt="Yash Computers Kukatpally Store"
                          class="store-img"
                          width="380"
@@ -143,7 +143,7 @@ include 'includes/header.php';
             <!-- Vijayawada -->
             <div class="store-card" data-aos="fade-up" data-aos-delay="250">
                 <div class="store-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80"
+                    <img src="assets/images/laptops/vijayawada-store.jpg"
                          alt="Yash Computers Vijayawada Store"
                          class="store-img"
                          width="380"

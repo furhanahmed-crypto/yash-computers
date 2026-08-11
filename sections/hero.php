@@ -71,7 +71,7 @@
                 </div>
                 
                 <!-- Hero Laptop Image -->
-                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" 
+                <img src="assets/images/laptops/hero-image.jpg" 
                      alt="Premium Refurbished Laptops Yash Computers" 
                      class="hero-image" 
                      width="600" 
