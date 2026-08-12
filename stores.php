@@ -46,7 +46,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                     <div class="store-actions">
-                        <a href="https://maps.google.com/?q=Suchitra+Hyderabad"
+                        <a href="https://maps.app.goo.gl/mBiZc4PzcZx6r6wd8"
                            target="_blank"
                            rel="noopener noreferrer"
                            class="btn btn-outline btn-sm">
@@ -85,7 +85,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                     <div class="store-actions">
-                        <a href="https://maps.google.com/?q=Ameerpet+Hyderabad"
+                        <a href="https://maps.app.goo.gl/RHAg3CNBPSmVUo2r7?g_st=ac"
                            target="_blank"
                            rel="noopener noreferrer"
                            class="btn btn-outline btn-sm">
@@ -124,7 +124,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                     <div class="store-actions">
-                        <a href="https://maps.google.com/?q=Kukatpally+Hyderabad"
+                        <a href="https://maps.app.goo.gl/uENCfGWYDmqeAxgt5?g_st=ac"
                            target="_blank"
                            rel="noopener noreferrer"
                            class="btn btn-outline btn-sm">

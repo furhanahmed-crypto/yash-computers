@@ -63,7 +63,8 @@ if (!isset($active_page)) {
     <meta property="twitter:description" content="<?php echo htmlspecialchars($page_description); ?>">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="icon" type="image/png" href="assets/images/logo-transparent.png">
+    <link rel="apple-touch-icon" href="assets/images/logo-transparent.png">
     
     <!-- FontAwesome Icons CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
