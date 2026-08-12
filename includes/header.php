@@ -62,11 +62,15 @@ if (!isset($active_page)) {
     <meta property="twitter:title" content="<?php echo htmlspecialchars($page_title); ?>">
     <meta property="twitter:description" content="<?php echo htmlspecialchars($page_description); ?>">
     
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" sizes="any">
+    <!-- Favicon (Google Search uses 48px+ square icons from rel="icon") -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/images/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
     
     <!-- FontAwesome Icons CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
